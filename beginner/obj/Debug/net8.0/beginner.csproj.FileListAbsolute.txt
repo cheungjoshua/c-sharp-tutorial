@@ -1,0 +1,14 @@
+/home/josh/Desktop/Study/C#/tutorial/beginner/bin/Debug/net8.0/beginner
+/home/josh/Desktop/Study/C#/tutorial/beginner/bin/Debug/net8.0/beginner.deps.json
+/home/josh/Desktop/Study/C#/tutorial/beginner/bin/Debug/net8.0/beginner.runtimeconfig.json
+/home/josh/Desktop/Study/C#/tutorial/beginner/bin/Debug/net8.0/beginner.dll
+/home/josh/Desktop/Study/C#/tutorial/beginner/bin/Debug/net8.0/beginner.pdb
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/beginner.GeneratedMSBuildEditorConfig.editorconfig
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/beginner.AssemblyInfoInputs.cache
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/beginner.AssemblyInfo.cs
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/beginner.csproj.CoreCompileInputs.cache
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/beginner.dll
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/refint/beginner.dll
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/beginner.pdb
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/beginner.genruntimeconfig.cache
+/home/josh/Desktop/Study/C#/tutorial/beginner/obj/Debug/net8.0/ref/beginner.dll
