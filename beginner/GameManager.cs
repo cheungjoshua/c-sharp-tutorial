@@ -3,41 +3,19 @@
 public class GameManager
 {
 
-  Random _rng = new Random();
+  private IPlayer _player1;
+  private IPlayer _player2;
+
+  public GameManager(IPlayer player1, IPlayer player2)
+  {
+    _player1 = player1;
+    _player2 = player2;
+  }
 
   public RoundResult PlayRound()
   {
-    Choice p1;
-
-    while (true)
-    {
-
-      Console.WriteLine("Enter Choice: (R)ock, (P)aper, (S)Cissors: ");
-      var input = Console.ReadLine().ToUpper();
-
-      if (input == "R")
-      {
-        p1 = Choice.Rock;
-        break;
-      }
-      else if (input == "P")
-      {
-        p1 = Choice.Paper;
-        break;
-      }
-      else if (input == "S")
-      {
-        p1 = Choice.Scissors;
-        break;
-      }
-      else
-      {
-        Console.WriteLine("Invalid choice, try again!");
-      }
-    };
-
-    Choice p2 = (Choice)_rng.Next(0, 3);
-    Console.WriteLine($"Player 2 picked {p2}");
+    Choice p1 = _player1.GetChoice();
+    Choice p2 = _player2.GetChoice();
 
     if (p1 == p2)
     {

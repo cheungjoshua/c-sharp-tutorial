@@ -1,6 +1,6 @@
 ﻿using beginner;
 
-GameManager gm = new GameManager();
+GameManager gm = new GameManager(new HumanPlayer(), new ComputerPlayer());
 
 do
 {
