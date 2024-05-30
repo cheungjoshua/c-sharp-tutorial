@@ -29,8 +29,6 @@ namespace WPFTutorial
                 btnToggleRun.Content = "Stop";
             }
 
-
-
             running = !running;
 
         }
